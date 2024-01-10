@@ -1,0 +1,38 @@
+/* === CSS RESET === */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img,
+svg {
+  display: block;
+  width: 100%;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.5rem;
+}
+
+/* === VARIABLES === */
+:root {
+  /* COLORS */
+  --color-brightorange: hsl(31, 77%, 52%);
+  --color-darkcyan: hsl(184, 100%, 22%);
+  --color-verydarkcyan: hsl(179, 100%, 13%);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
