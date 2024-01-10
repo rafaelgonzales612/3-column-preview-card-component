@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/responsive-3column-preview-card-built-with-html-and-css-CjOqZrvS51](https://www.frontendmentor.io/solutions/responsive-3column-preview-card-built-with-html-and-css-CjOqZrvS51)
+- Live Site URL: [https://threecolumnpreviewcard-rafaelgonz.netlify.app/](https://threecolumnpreviewcard-rafaelgonz.netlify.app/)
 
 ## My process
 
