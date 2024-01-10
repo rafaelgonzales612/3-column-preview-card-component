@@ -48,6 +48,6 @@ Media queries will definitely be something I will keep working on and familiariz
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Website - [https://www.gonzalesrafael.com/](https://www.gonzalesrafael.com/)
+- Frontend Mentor - [@yrafaelgonzales612](https://www.frontendmentor.io/profile/rafaelgonzales612)
+- LinkedIn - [https://www.linkedin.com/in/rafaelgonz612/](https://www.linkedin.com/in/rafaelgonz612/)
