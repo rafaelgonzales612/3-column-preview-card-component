@@ -148,7 +148,7 @@ body {
   color: hsl(228, 45%, 44%);
 }
 
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: 375px) {
   .cards {
     display: flex;
   }
