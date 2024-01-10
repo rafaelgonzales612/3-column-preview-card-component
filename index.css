@@ -10,7 +10,7 @@
 img,
 svg {
   display: block;
-  width: 100%;
+  max-width: 100%;
 }
 
 html {
@@ -21,16 +21,67 @@ body {
   font-size: 1.5rem;
 }
 
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
 /* === VARIABLES === */
 :root {
   /* COLORS */
   --color-brightorange: hsl(31, 77%, 52%);
   --color-darkcyan: hsl(184, 100%, 22%);
   --color-verydarkcyan: hsl(179, 100%, 13%);
+  --color-transparentwhite: hsla(0, 0%, 100%, 0.75);
+  --color-verylightgray: hsl(0, 0%, 95%);
+  /* FONTS */
+  --fontfamily-lexenddeca: "Lexend Deca", sans-serif;
+  --fontfamily-bigshouldersdisplay: "Big Shoulders Display", sans-serif;
+  --fontweight-regular: 400;
+  --fontweight-bold: 700;
 }
 
-.attribution {
-  font-size: 11px;
+/* === GENERAL STYLES === */
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-container {
+  width: 350px;
+  height: auto;
+  border: 2px solid black;
+  padding: 3.2rem;
+}
+
+.card-img {
+}
+
+.card-header {
+  color: var(--color-verylightgray);
+  font-family: var(--fontfamily-bigshouldersdisplay);
+  font-weight: var(--fontweight-bold);
+}
+
+.card-sedan {
+  background-color: var(--color-brightorange);
+}
+
+.card-suv {
+  background-color: var(--color-darkcyan);
+}
+
+.card-luxury {
+  background-color: var(--color-verydarkcyan);
+}
+
+.card-luxury .attribution {
+  font-size: 1.1rem;
   text-align: center;
 }
 .attribution a {
