@@ -45,15 +45,15 @@ select {
 
 /* === GENERAL STYLES === */
 body {
-  display: flex;
-  flex-direction: column;
+  /* display: flex;
+  flex-direction: column; */
   min-height: 100vh;
   align-items: center;
   justify-content: center;
 }
 
 .card-container {
-  width: 350px;
+  max-width: 350px;
   height: auto;
   padding: 5rem;
 }
@@ -148,9 +148,41 @@ body {
   color: hsl(228, 45%, 44%);
 }
 
-@media only screen and (min-width: 375px) {
+@media only screen and (max-width: 600px) {
+  body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .card-header {
+    font-size: 4rem;
+  }
+
+  .card-sedan {
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 0.5rem;
+  }
+
+  .card-luxury {
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 0.5rem;
+  }
+
+  .card-description {
+    padding-bottom: 10rem;
+  }
+}
+
+@media only screen and (min-width: 601px) {
   .cards {
     display: flex;
+    flex-direction: row;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
   }
 
   .card-header {
