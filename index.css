@@ -55,21 +55,21 @@ body {
 .card-container {
   width: 350px;
   height: auto;
-  border: 2px solid black;
-  padding: 3.2rem;
-}
-
-.card-img {
+  padding: 5rem;
 }
 
 .card-header {
   color: var(--color-verylightgray);
   font-family: var(--fontfamily-bigshouldersdisplay);
   font-weight: var(--fontweight-bold);
+  font-size: 3.2rem;
+  padding: 2.8rem 0;
 }
 
 .card-sedan {
   background-color: var(--color-brightorange);
+  border-top-left-radius: 0.6rem;
+  border-top-right-radius: 0.6rem;
 }
 
 .card-suv {
@@ -78,11 +78,46 @@ body {
 
 .card-luxury {
   background-color: var(--color-verydarkcyan);
+  border-bottom-left-radius: 0.6rem;
+  border-bottom-right-radius: 0.6rem;
 }
 
-.card-luxury .attribution {
-  font-size: 1.1rem;
+.card-description,
+.card-button {
+  font-family: var(--fontfamily-lexenddeca);
+  font-weight: var(--fontweight-regular);
+}
+
+.card-description {
+  color: var(--color-transparentwhite);
+  line-height: 2.4rem;
+  padding-bottom: 3.2rem;
+  /* border: 2px solid black; */
+}
+
+.card-button {
+  width: 60%;
+  padding: 1.2rem;
+  border-radius: 5rem;
+  border: none;
+}
+
+.card-sedan .card-button {
+  color: var(--color-brightorange);
+}
+
+.card-suv .card-button {
+  color: var(--color-darkcyan);
+}
+
+.card-luxury .card-button {
+  column-rule: var(--color-verydarkcyan);
+}
+
+.attribution {
+  font-size: 1.2rem;
   text-align: center;
+  padding-top: 1rem;
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
