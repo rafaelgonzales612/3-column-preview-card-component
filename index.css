@@ -93,7 +93,7 @@ body {
   color: var(--color-transparentwhite);
   line-height: 2.4rem;
   /* padding-bottom: 3.2rem; */
-  border: 2px solid black;
+  /* border: 2px solid black; */
 }
 
 .card-button {
@@ -173,13 +173,13 @@ body {
   }
 
   .card-sedan {
-    border-top-right-radius: 0;
-    border-bottom-left-radius: 0.5rem;
+    border-top-right-radius: 0.5;
+    border-bottom-left-radius: 0rem;
   }
 
   .card-luxury {
-    border-bottom-left-radius: 0;
-    border-top-right-radius: 0.5rem;
+    border-bottom-left-radius: 0.5;
+    border-top-right-radius: 0rem;
   }
 
   .card-description {
